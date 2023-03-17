@@ -12,6 +12,7 @@
 		71C1314B29C48CA2007B8D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C1314929C48CA2007B8D99 /* LaunchScreen.storyboard */; };
 		71C1315929C48D1A007B8D99 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C1315829C48D1A007B8D99 /* AppRouter.swift */; };
 		71C1315B29C48ED5007B8D99 /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C1315A29C48ED5007B8D99 /* AppCore.swift */; };
+		71F4905629C49B86009B9647 /* InitialSceneViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE5FE29C491BF0027FC39 /* InitialSceneViewController.xib */; };
 		71FEE5D829C490610027FC39 /* AppCoreContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE5D729C490610027FC39 /* AppCoreContract.swift */; };
 		71FEE5DC29C490890027FC39 /* AppNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE5DB29C490890027FC39 /* AppNetworkLayer.swift */; };
 		71FEE5DE29C490AC0027FC39 /* AppNetworkLayerContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE5DD29C490AC0027FC39 /* AppNetworkLayerContract.swift */; };
@@ -339,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F4905629C49B86009B9647 /* InitialSceneViewController.xib in Sources */,
 				71FEE60629C491CF0027FC39 /* InitialSceneInteractorContract.swift in Sources */,
 				71FEE5DE29C490AC0027FC39 /* AppNetworkLayerContract.swift in Sources */,
 				71FEE5DC29C490890027FC39 /* AppNetworkLayer.swift in Sources */,
@@ -496,14 +498,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 54L37Y4QC4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhantomTypesExample/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -525,14 +526,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 54L37Y4QC4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhantomTypesExample/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
