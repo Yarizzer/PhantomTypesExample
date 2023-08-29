@@ -48,8 +48,6 @@ extension InitialSceneRouter: InitialSceneRoutable {
 	
 	func routeTo(scene type: InitialSceneRoutableContractData.InitialSceneRoutableSceneType) {
 		let vc = prepareDestinationScene(with: type)
-//		vc.modalPresentationStyle = .currentContext
-//		vc.transitioningDelegate = view
 		self.view?.present(vc, animated: true)
 	}
 }
