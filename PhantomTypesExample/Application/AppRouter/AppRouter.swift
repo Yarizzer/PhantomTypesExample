@@ -13,9 +13,8 @@ protocol AppRoutable {
 
 final class AppRouter {
     init() {
-        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         window.backgroundColor = .systemBackground
-        self.window = window
     }
     
     private let window: UIWindow

@@ -5,7 +5,6 @@
 //  Created by Yaroslav Abaturov on 17.03.2023.
 //
 
-import Foundation
 import UIKit
 
 protocol NibLoadableView: AnyObject {

@@ -16,5 +16,5 @@ final class AppCore {
 }
 
 extension AppCore: AppCoreNetworkable {
-    var networkLayer: AppNetworkLayerType { return networkL }
+    var networkLayer: AppNetworkLayerType { networkL }
 }
