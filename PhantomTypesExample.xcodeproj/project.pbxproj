@@ -29,7 +29,6 @@
 		71FEE60729C491CF0027FC39 /* InitialSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE60429C491CE0027FC39 /* InitialSceneInteractor.swift */; };
 		71FEE60929C491D30027FC39 /* InitialSceneInteractorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE60829C491D30027FC39 /* InitialSceneInteractorService.swift */; };
 		71FEE60E29C491EF0027FC39 /* InitialSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE60D29C491EF0027FC39 /* InitialSceneRouter.swift */; };
-		71FEE60F29C491EF0027FC39 /* InitialSceneRouterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEE60C29C491EF0027FC39 /* InitialSceneRouterContract.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,7 +55,6 @@
 		71FEE60429C491CE0027FC39 /* InitialSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneInteractor.swift; sourceTree = "<group>"; };
 		71FEE60529C491CF0027FC39 /* InitialSceneInteractorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneInteractorContract.swift; sourceTree = "<group>"; };
 		71FEE60829C491D30027FC39 /* InitialSceneInteractorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneInteractorService.swift; sourceTree = "<group>"; };
-		71FEE60C29C491EF0027FC39 /* InitialSceneRouterContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneRouterContract.swift; sourceTree = "<group>"; };
 		71FEE60D29C491EF0027FC39 /* InitialSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -265,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				71FEE60D29C491EF0027FC39 /* InitialSceneRouter.swift */,
-				71FEE60C29C491EF0027FC39 /* InitialSceneRouterContract.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -353,7 +350,6 @@
 				71FEE60E29C491EF0027FC39 /* InitialSceneRouter.swift in Sources */,
 				71FEE60229C491C00027FC39 /* InitialSceneViewControllerContract.swift in Sources */,
 				71FEE60729C491CF0027FC39 /* InitialSceneInteractor.swift in Sources */,
-				71FEE60F29C491EF0027FC39 /* InitialSceneRouterContract.swift in Sources */,
 				71FEE5E429C490F30027FC39 /* BaseViewController.swift in Sources */,
 				71FEE60129C491BF0027FC39 /* InitialSceneViewController.swift in Sources */,
 				71FEE5E129C490D00027FC39 /* ItemModel.swift in Sources */,
