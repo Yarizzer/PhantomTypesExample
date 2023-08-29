@@ -22,7 +22,6 @@ extension InitialScenePresenter: InitialScenePresentable {
         
         switch responseType {
         case .initialSetup: viewController?.update(viewModelDataType: .initialSetup(with: model))
-        case .releaseView: viewController = nil
         }
     }
 }

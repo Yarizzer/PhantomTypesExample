@@ -31,7 +31,5 @@ extension InitialSceneViewController: InitialSceneViewControllerType {
 }
 
 extension InitialSceneViewController {
-    private struct Constants {
-        
-    }
+    private struct Constants { }
 }
