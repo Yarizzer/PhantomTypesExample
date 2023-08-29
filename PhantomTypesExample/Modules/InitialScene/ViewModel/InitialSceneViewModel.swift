@@ -27,9 +27,5 @@ extension InitialSceneViewModel: InitialSceneViewModelType {
         
         AppCore.shared.networkLayer.performAuthenticatedCall(request: authReq) { completion($0) }
         AppCore.shared.networkLayer.performUnauthenticatedCall(request: unauthReq) { completion($0) }
-        
-        #warning("Performs an issue here")
-//        AppCore.shared.networkLayer.performAuthenticatedCall(request: unauthReq) { completion($0) }
-//        AppCore.shared.networkLayer.performUnauthenticatedCall(request: authReq) { completion($0) }
     }
 }
