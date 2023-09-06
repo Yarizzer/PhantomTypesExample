@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol InitialSceneViewModelType {
+protocol InitialSceneViewModelType: AnyObject {
     func performCall(completion: @escaping (Bool) -> ())
 }
 
