@@ -5,7 +5,7 @@
 //  Created by Yaroslav Abaturov on 17.03.2023.
 //
 
-protocol AppNetworkLayerType {
+protocol AppNetworkLayerType: AnyObject {
     func performAuthenticatedCall(request: AuthenticatedRequest, completion: @escaping (Bool) -> ())
     func performUnauthenticatedCall(request: UnauthenticatedRequest, completion: @escaping (Bool) -> ())
 }
