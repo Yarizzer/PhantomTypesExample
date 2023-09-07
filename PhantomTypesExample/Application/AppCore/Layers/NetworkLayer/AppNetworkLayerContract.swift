@@ -18,4 +18,3 @@ struct Request<RequestType> {
 
 typealias AuthenticatedRequest = Request<RequestType.Authenticated>
 typealias UnauthenticatedRequest = Request<RequestType.Unauthenticated>
-
